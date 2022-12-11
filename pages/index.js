@@ -2,9 +2,9 @@ import Head from 'next/head'
 import { useState } from 'react'
 // import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import CountriesTable from './component/countriestable/CountriesTable'
-import Layout from './component/layout/layout'
-import SearchInput from './component/searchinput/SearchInput'
+import CountriesTable from '../component/countriestable/CountriesTable'
+import Layout from '../component/layout/layout'
+import SearchInput from '../component/searchinput/SearchInput'
 
 
 
