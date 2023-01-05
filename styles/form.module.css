@@ -1,0 +1,46 @@
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .buttons_area {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+    bottom: 5%;
+
+  }
+
+
+  .wrapper {
+    height: 100%;
+    width: 50%;
+    margin-top: auto    ;
+    padding-block: 10px 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .display_none{
+    display: none;
+  }
+
+  .input{
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
